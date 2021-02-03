@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(231, 233, 243); 
+}
+
+
+@media (min-width: 720px) {
+/* Card 1 */
+
+.card1 {
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto 0;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 2, 9, 0.4);
+}
+
+.center_content {
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(89, 94, 116);
+}
+
+.profile_picture {
+  height: 225px;
+  width: 300px;
+  border-radius: 10%;
+  border: 1px solid rgba(0, 2, 9, 0.4);
+}
+
+h2 {
+  font-family: 'Varela', sans-serif;
+  color: rgba(0, 2, 9, 0.6)
+}
+
+/*------------------------------------*/
+/* Card2 */
+
+.card2 {
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 2, 9, 0.4);
+}
+
+.center_content2 {
+  margin: 0 auto;
+}
+
+.description {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+button {
+  font-family: 'Varela', sans-serif;
+}
+
+button:hover {
+  color: blue;
+}
+
+/*---------------------------------------*/
+/* Footer */
+
+.footer {
+  width: all;
+  height: 100px;
+  background-color: rgba(0, 2, 9, 1);
+  display: flex;
+  text-align: center;
+  align-items:center;
+  justify-content: space-around;
+  padding: 0 45%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.social_media {
+  color:rgb(255, 255, 255);
+}
+
+.social_media:hover {
+  color:rgba(184, 184, 184, 0.5)
+}
+/*--------------------------------------------*/
+}
+
+@media (max-width: 720px) {
+
+  .card1 {
+    background-color: white;
+    width: 330px;
+    height: 230px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto 0;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 2, 9, 0.4);
+  }
+  
+  .center_content {
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(89, 94, 116);
+  }
+  
+  .profile_picture {
+    height: 135px;
+    width: 200px;
+    border-radius: 10%;
+    border: 1px solid rgba(0, 2, 9, 0.4);
+  }
+  
+  h2 {
+    font-family: 'Varela', sans-serif;
+    color: rgba(0, 2, 9, 0.6);
+    font-size: 30px;
+  }
+  
+  /*------------------------------------*/
+  /* Card2 */
+  
+  .card2 {
+    background-color: white;
+    width: 330px;
+    height: 230px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 2, 9, 0.4);
+  }
+  
+  .center_content2 {
+    margin: 0 auto;
+  }
+  
+  .description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+  }
+  
+  button {
+    font-family: 'Varela', sans-serif;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    color: blue;
+  }
+  
+  /*---------------------------------------*/
+  /* Footer */
+  
+  .footer {
+    width: all;
+    height: 100px;
+    background-color: rgba(0, 2, 9, 1);
+    display: flex;
+    text-align: center;
+    align-items:center;
+    justify-content: space-around;
+    padding: 0 30%;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    align-items:center;
+    justify-content: space-between;
+  }
+  
+  .social_media {
+    color:rgb(255, 255, 255);
+  }
+  
+  .social_media:hover {
+    color:rgba(184, 184, 184, 0.5)
+  }
+  /*--------------------------------------------*/
+  }
+}
