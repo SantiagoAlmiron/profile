@@ -1,33 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&family=Roboto:wght@500&family=Varela&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <title>Santiago's Profile</title>
-</head>
-<body>
-  <div class="card1">
-    <div class="center_content">
-      <h1>Hello i'm Santiago!</h1>
-      <img class="profile_picture" src="images/profile.jpg" alt="Santiago's profile picture">
-      <h2>Programmer</h2>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&family=Roboto:wght@500&family=Varela&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Santiago's Profile</title>
+  </head>
+  <body class="d-flex">
+    <div id="side-navbar" class="d-flex justify-content-center align-items-center">
+      <div class="text-center">
+        <img src="profile.jpg" alt="My profile photo" id="profile-image-banner">
+        <strong><a href="#About" class="text-decoration-none text-white"><p>ABOUT</p></a></strong>
+        <strong><a href="#Experience" class="text-decoration-none text-white"><p>EXPERIENCE</p></a></strong>
+        <strong><a href="#Education" class="text-decoration-none text-white"><p>EDUCATION</p></a></strong>
+        <strong><a href="#Skills" class="text-decoration-none text-white"><p>SKILLS</p></a></strong>
+        <strong><a href="#Interests" class="text-decoration-none text-white"><p>INTERESTS</p></a></strong>
+      </div>
     </div>
-  </div>
-  <div class="card2">
-    <div class="center_content2">
-      <p class="description">I'm Santiago and i live in Junín (Bs.As, Argentina)</p>
-      <button>Is a buttom!</button>
+    <div class="content overflow-auto transition">
+      <section class="box p-5 d-flex align-items-center border-bottom" id="About">
+        <div>
+          <h1>Santiago Almiron</h1>
+          <h6>Junín, Buenos Aires, Argentina · +54 2364 611351 · <span class="text-red">sanalmiron@hotmail.com</span></h6>
+          <p class="py-3"> Welcome to my landing page. I've recently graduated from <a href="https://www.lewagon.com/es" class="text-decoration-none text-red" target="blank">
+           Le Wagon</a> 9 week bootcamp. There i studied html5, css3, ruby, Javascript, SQL<br> and how to mix it to build awesome apps.
+           I enjoy work in group en solve the challenges from every day, responsable and proactive.
+          </p>
+          <p class="d-none">Check my portfolio --></p>
+          <div class="">
+            <a href="https://www.linkedin.com/in/santiago-almiron-2b59581a9/" class="logos-container mr-3" target="blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/SantiagoAlmiron" class="logos-container" target="blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </section>
+      <section class="box p-5 d-flex align-items-center border-bottom" id="Experience">
+        <div>
+          <h1 class="pb-3">Experience</h1>
+          <div>
+            <h3>Abiona | Final project at Le Wagon bootcamp</h3>
+            <p>Development of back, front end and DB. I learned to work in a team using Git and trello.</p>
+            <p>Take a look at <a href="http://www.tryabiona.com/" class="text-decoration-none text-red" target="blank"><strong>www.tryabiona.com</strong></a></p>
+          </div>
+          <div class="pt-2">
+            <h3>Seller | micro entrepreneurship</h3>
+            <p>For three years I was an independent seller and distributor of marmalades and chocolates from <strong><a href="https://www.focolare.org/mariapolislia/mermeladas-bombones-y-helados/" class="text-decoration-none text-red">Mariapolis</a></strong>.</p>
+          </div>
+        </div>
+      </section>
+      <section class="box p-5 d-flex align-items-center border-bottom" id="Education">
+        <div>
+          <h1 class="pb-3">Education</h1>
+          <div>
+            <h3>Le Wagon Bootcamp | Argentina</h3>
+            <p>Attended Le Wagon Buenos Aires (remote) (Batch #559). 9-week intensive coding bootcamp learning Ruby, Ruby on Rails, OOP,<br>
+            SQL, Active Record, HTML, CSS, Bootstrap, JavaScript ES6, UI Design, UX Design, Figma, git, GitHub and Heroku.</p>
+          </div>
+          <div class="pt-2">
+            <h3>English Chichester Collage Certificate | Advanced (CERF B2)</h3>
+            <p>I studied for 6 years in a private english institute, and then i took B2 exam.</p>
+          </div>
+          <div class="pt-2">
+            <h3>Unnoba | mechanical engineering (pause)</h3>
+            <p>I studied for 2 years but discovered that it was not my thing. However, I acquired training in mathematics and physics.</p>
+          </div>
+        </div>
+      </section>
+      <section class="box p-5 d-flex align-items-center border-bottom" id="Skills">
+        <div>
+          <h1 class="pb-3">Skills</h1>
+          <div>
+            <h3>Programing lenguages and tools:</h3>
+            <div class="logos-container-red">
+              <img src="rails.png" alt="rails-icon" class="logo">
+              <i class="fab fa-js-square"></i>
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-figma"></i>
+              <i class="fab fa-git"></i>
+              <i class="fab fa-trello"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="box p-5 d-flex align-items-center border-bottom" id="Interests">
+        <div>
+          <h1 class="pb-3">Interests</h1>
+          <div>
+            <p>
+              I am a curious and creative person who likes to walk outdoors, go out with my friends,<br> drink mate and chat for hours
+              about life. I like gardening and particularly bonsai, and<br> I also like video games and reading. I think my main virtue is
+              my patience and perseverance<br> and my main defect is anxiety.
+            </p>
+          </div>
+      </section>
     </div>
-  </div>
-  <div class="footer">
-    <a href="https://www.instagram.com/santiago.almiron96/" class="social_media"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.facebook.com/SantiagoAlmiron13" class="social_media"><i class="fab fa-facebook-square"></i></a>
-    <a href="https://github.com/SantiagoAlmiron" class="social_media"><i class="fab fa-github-alt"></i></a>
-  </div>
-</body>
+  </body>
 </html>

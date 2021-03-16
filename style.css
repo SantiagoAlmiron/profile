@@ -1,209 +1,60 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
+#side-navbar {
+  background-color: #C41E3A;
+  height: 100vh;
+  width: 17rem;
+  left: 0px;
 }
 
-body {
-  background-color: rgb(231, 233, 243); 
+#profile-image-banner {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid #ff2a4e31;
+  margin-bottom: 20px;
 }
 
-
-@media (min-width: 720px) {
-/* Card 1 */
-
-.card1 {
-  background-color: white;
-  width: 500px;
-  height: 400px;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  margin: 5px auto 0;
-  align-items: center;
-  box-shadow: 0 0 20px rgba(0, 2, 9, 0.4);
+#content {
+  width: 100%;
+}
+.text-red {
+  color: #C41E3A;
 }
 
-.center_content {
+.text-red:hover {
+  color: #c41e3a8f;
 }
 
-h1 {
-  font-family: 'Roboto', sans-serif;
-  color: rgba(89, 94, 116);
+.logos-container {
+  font-size: 350%;
+  color: rgb(0, 0, 0);
 }
 
-.profile_picture {
-  height: 225px;
-  width: 300px;
-  border-radius: 10%;
-  border: 1px solid rgba(0, 2, 9, 0.4);
+.logos-container:hover {
+  color: #C41E3A;
 }
 
-h2 {
-  font-family: 'Varela', sans-serif;
-  color: rgba(0, 2, 9, 0.6)
+.logos-container-red {
+   font-size: 350%;
+   color: #C41E3A;
 }
 
-/*------------------------------------*/
-/* Card2 */
-
-.card2 {
-  background-color: white;
-  width: 500px;
-  height: 400px;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  margin: 20px auto;
-  align-items: center;
-  box-shadow: 0 0 20px rgba(0, 2, 9, 0.4);
+.overflow-auto {
+  overflow: auto;
+  height: 100vh;
 }
 
-.center_content2 {
-  margin: 0 auto;
+.box {
+  height: 100vh;
 }
 
-.description {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-}
+.logo {
+  height: 50px;
+  width: 50px;
+  color: black;
+  margin-bottom: 15px;
+} 
 
-button {
-  font-family: 'Varela', sans-serif;
-}
-
-button:hover {
-  color: blue;
-}
-
-/*---------------------------------------*/
-/* Footer */
-
-.footer {
-  width: all;
-  height: 100px;
-  background-color: rgba(0, 2, 9, 1);
-  display: flex;
-  text-align: center;
-  align-items:center;
-  justify-content: space-around;
-  padding: 0 45%;
-}
-
-ul {
-  list-style-type: none;
-  display: flex;
-  text-align: center;
-  align-items:center;
-  justify-content: space-between;
-}
-
-.social_media {
-  color:rgb(255, 255, 255);
-}
-
-.social_media:hover {
-  color:rgba(184, 184, 184, 0.5)
-}
-/*--------------------------------------------*/
-}
-
-@media (max-width: 720px) {
-
-  .card1 {
-    background-color: white;
-    width: 330px;
-    height: 230px;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    margin: 20px auto 0;
-    align-items: center;
-    box-shadow: 0 0 20px rgba(0, 2, 9, 0.4);
-  }
-  
-  .center_content {
-  }
-  
-  h1 {
-    font-family: 'Roboto', sans-serif;
-    color: rgba(89, 94, 116);
-  }
-  
-  .profile_picture {
-    height: 135px;
-    width: 200px;
-    border-radius: 10%;
-    border: 1px solid rgba(0, 2, 9, 0.4);
-  }
-  
-  h2 {
-    font-family: 'Varela', sans-serif;
-    color: rgba(0, 2, 9, 0.6);
-    font-size: 30px;
-  }
-  
-  /*------------------------------------*/
-  /* Card2 */
-  
-  .card2 {
-    background-color: white;
-    width: 330px;
-    height: 230px;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    margin: 20px auto;
-    align-items: center;
-    box-shadow: 0 0 20px rgba(0, 2, 9, 0.4);
-  }
-  
-  .center_content2 {
-    margin: 0 auto;
-  }
-  
-  .description {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-  }
-  
-  button {
-    font-family: 'Varela', sans-serif;
-    margin-top: 15px;
-  }
-  
-  button:hover {
-    color: blue;
-  }
-  
-  /*---------------------------------------*/
-  /* Footer */
-  
-  .footer {
-    width: all;
-    height: 100px;
-    background-color: rgba(0, 2, 9, 1);
-    display: flex;
-    text-align: center;
-    align-items:center;
-    justify-content: space-around;
-    padding: 0 30%;
-  }
-  
-  ul {
-    list-style-type: none;
-    display: flex;
-    text-align: center;
-    align-items:center;
-    justify-content: space-between;
-  }
-  
-  .social_media {
-    color:rgb(255, 255, 255);
-  }
-  
-  .social_media:hover {
-    color:rgba(184, 184, 184, 0.5)
-  }
-  /*--------------------------------------------*/
-  }
+.transition {
+  scroll-behavior: smooth;
 }
