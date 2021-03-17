@@ -33,6 +33,14 @@
   .text-red:hover {
     color: #c41e3a8f;
   }
+
+  .texts {
+    color: white;
+  }
+
+  .texts:hover {
+    color: rgb(201, 201, 201);
+  }
   
   .logos-container {
     font-size: 350%;
@@ -97,6 +105,15 @@
   #content {
     width: 100%;
   }
+
+  .texts {
+    color: white;
+  }
+
+  .texts:hover {
+    color: rgb(201, 201, 201);
+  }
+
   .text-red {
     color: #C41E3A;
   }
@@ -162,6 +179,14 @@
     color: #c41e3a8f;
   }
   
+  .texts {
+    color: white;
+  }
+
+  .texts:hover {
+    color: rgb(201, 201, 201);
+  }
+
   .logos-container {
     font-size: 350%;
     color: rgb(0, 0, 0);
