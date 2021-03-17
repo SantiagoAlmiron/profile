@@ -10,19 +10,32 @@
     <link rel="stylesheet" href="style.css">
     <title>Santiago's Profile</title>
   </head>
-  <body class="d-flex">
+  <body>
+    <nav id="desplegable" class="shadow pt-1">
+      <div class="text-center">
+        <strong><a href="#experience" class="text-decoration-none text-white p-0 my-3"><div class="button">EXPERIENCE</div></a></strong>
+        <strong><a href="#about" class="text-decoration-none text-white p-0 my-3"><div class="button">ABOUT</a></div></strong>
+      </div>
+      <div class="text-center">
+        <strong><a href="#education" class="text-decoration-none text-white p-0 my-3"><div class="button">EDUCATION</a></div></strong>
+        <strong><a href="#skills" class="text-decoration-none text-white p-0 my-3"><div class="button">SKILLS</p></a></div></strong>
+      </div>
+      <div class="text-center">
+        <strong><a href="#interests" class="text-decoration-none text-white p-0 my-3"><div class="button">INTERESTS</a></div></strong>
+      </div>
+    </nav>
     <div id="side-navbar" class="d-flex justify-content-center align-items-center">
       <div class="text-center">
         <img src="profile.jpg" alt="My profile photo" id="profile-image-banner">
-        <strong><a href="#About" class="text-decoration-none text-white"><p>ABOUT</p></a></strong>
-        <strong><a href="#Experience" class="text-decoration-none text-white"><p>EXPERIENCE</p></a></strong>
-        <strong><a href="#Education" class="text-decoration-none text-white"><p>EDUCATION</p></a></strong>
-        <strong><a href="#Skills" class="text-decoration-none text-white"><p>SKILLS</p></a></strong>
-        <strong><a href="#Interests" class="text-decoration-none text-white"><p>INTERESTS</p></a></strong>
+        <strong><a href="#about" class="text-decoration-none text-white"><p>ABOUT</p></a></strong>
+        <strong><a href="#experience" class="text-decoration-none text-white"><p>EXPERIENCE</p></a></strong>
+        <strong><a href="#education" class="text-decoration-none text-white"><p>EDUCATION</p></a></strong>
+        <strong><a href="#skills" class="text-decoration-none text-white"><p>SKILLS</p></a></strong>
+        <strong><a href="#interests" class="text-decoration-none text-white"><p>INTERESTS</p></a></strong>
       </div>
     </div>
     <div class="content overflow-auto transition w-100">
-      <section class="box p-5 d-flex align-items-center border-bottom" id="About">
+      <section class="box p-5 d-flex align-items-center border-bottom" id="about">
         <div>
           <h1>Santiago Almiron</h1>
           <h6>Junín, Buenos Aires, Argentina · +54 2364 611351 · <span class="text-red">sanalmiron@hotmail.com</span></h6>
@@ -31,13 +44,15 @@
            I enjoy work in group en solve the challenges from every day, responsable and proactive.
           </p>
           <p class="d-none">Check my portfolio --></p>
-          <div class="">
-            <a href="https://www.linkedin.com/in/santiago-almiron-2b59581a9/" class="logos-container mr-3" target="blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/SantiagoAlmiron" class="logos-container" target="blank"><i class="fab fa-github"></i></a>
+          <div class="dis-sm-flex">
+            <div>
+              <a href="https://www.linkedin.com/in/santiago-almiron-2b59581a9/" class="logos-container mr-3" target="blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/SantiagoAlmiron" class="logos-container" target="blank"><i class="fab fa-github"></i></a>
+            </div>
           </div>
         </div>
       </section>
-      <section class="box p-5 d-flex align-items-center border-bottom" id="Experience">
+      <section class="box p-5 d-flex align-items-center border-bottom" id="experience">
         <div>
           <h1 class="pb-3">Experience</h1>
           <div>
@@ -51,25 +66,25 @@
           </div>
         </div>
       </section>
-      <section class="box p-5 d-flex align-items-center border-bottom" id="Education">
+      <section class="box p-5 d-flex align-items-center border-bottom" id="education">
         <div>
           <h1 class="pb-3">Education</h1>
           <div>
-            <h3>Le Wagon Bootcamp | Argentina</h3>
+            <h3 id="educationH3">Le Wagon Bootcamp | Argentina</h3>
             <p>Attended Le Wagon Buenos Aires (remote) (Batch #559). 9-week intensive coding bootcamp<br> learning Ruby, Ruby on Rails, OOP,
             SQL, Active Record, HTML, CSS, Bootstrap, JavaScript ES6, UI <br> Design, UX Design, Figma, git, GitHub and Heroku.</p>
           </div>
           <div class="pt-2">
-            <h3>English Chichester Collage Certificate | Advanced (CERF B2)</h3>
+            <h3 id="educationH3">English Chichester Collage Certificate | Advanced (CERF B2)</h3>
             <p>I studied for 6 years in a private english institute, and then i took B2 exam.</p>
           </div>
           <div class="pt-2">
-            <h3>Unnoba | mechanical engineering (pause)</h3>
+            <h3 id="educationH3">Unnoba | mechanical engineering (pause)</h3>
             <p>I studied for 2 years but discovered that it was not my thing. However, I acquired training in mathematics and physics.</p>
           </div>
         </div>
       </section>
-      <section class="box p-5 d-flex align-items-center border-bottom" id="Skills">
+      <section class="box p-5 d-flex align-items-center border-bottom" id="skills">
         <div>
           <h1 class="pb-3">Skills</h1>
           <div>
@@ -86,7 +101,7 @@
           </div>
         </div>
       </section>
-      <section class="box p-5 d-flex align-items-center border-bottom" id="Interests">
+      <section class="box p-5 d-flex align-items-center border-bottom" id="interests">
         <div>
           <h1 class="pb-3">Interests</h1>
           <div>
@@ -100,3 +115,4 @@
     </div>
   </body>
 </html>
+
