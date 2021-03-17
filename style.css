@@ -1,4 +1,4 @@
-@media(min-width:1000px) {
+@media(min-width:1080px) {
   #desplegable {
     display: none;
   }
@@ -69,7 +69,7 @@
   }
 }
 
-@media(min-width:768px) and (max-width:999px) {
+@media(min-width:768px) and (max-width:1079px) {
   body {
       display: flex;
     }
